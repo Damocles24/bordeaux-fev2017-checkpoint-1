@@ -14,7 +14,7 @@
 \************************************************/
 @font-face {
   font-family: 'Folkard';
-  src: url(/fonts/folkard_.ttf);
+  src: url(fonts/folkard_.ttf);
 }
 
 .kaamelott-font {
@@ -38,10 +38,32 @@ img {
 3. Citation
 ==================================================
 \************************************************/
+label{
+  display: inline-block;
+  width: 10em;
+}
 
+.row {
+
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    
+}
+
+div {
+    display: block;
+    margin: 1em;
+}
+
+.col-sm-6 col-md-4 {
+
+    margin: 0 auto;
+
+}
 
 .kaamelott-banner jumbotron kaamelott-underline {
-  background-image: url(img/kaamelott-banner.jpg);
+  background-image: url(/img/kaamelott-banner.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,11 +134,7 @@ blockquote {
   background-color: #996f21;
 }
 
-footer{
-  text-align: center;
+footer {
+    text-align: center;
 }
-/************************************************\
-==================================================
-4. Footer
-==================================================
-\************************************************/
+
